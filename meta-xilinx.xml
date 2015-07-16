@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="oe"      fetch="git://git.openembedded.org"/>
+  <remote name="xilinx"  fetch="git://github.com/xilinx"/>
+  <remote name="scripts" fetch="git://github.com/xilinx"/>
+
+  <default sync-j="4"/>
+
+  <project remote="scripts" revision="master" name="yocto-scripts"       path="."/>
+  <project remote="oe"      revision="master" name="openembedded-core"   path="sources/yocto"/>
+  <project remote="oe"      revision="1.30"   name="bitbake"             path="sources/yocto/bitbake"/>
+  <project remote="xilinx"  revision="master" name="meta-xilinx"         path="sources/yocto/meta-xilinx"/>
+</manifest>
