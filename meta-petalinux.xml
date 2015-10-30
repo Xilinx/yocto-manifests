@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="oe"      fetch="git://git.openembedded.org"/>
+  <remote name="yocto"   fetch="git://git.yoctoproject.org"/>
+  <remote name="linaro"  fetch="git://git.linaro.org/openembedded"/>
+  <remote name="cyrilc"  fetch="git://gitenterprise.xilinx.com/cyrilc"/>
+  <remote name="qt5"     fetch="git://github.com/meta-qt5"/>
+  <remote name="xilinx"  fetch="git://github.com/xilinx"/>
+  <remote name="go"      fetch="git://github.com/errordeveloper"/>
+
+  <default revision="master" sync-j="8"/>
+
+  <!-- List all the repositories you want to fetch -->
+  <!-- "name": git repository's name on hosting server
+       "remote": the remote host from above (if not the default)
+       "revision": commitish to checkout (if not the default)
+       "path": directory where git repository gets cloned/synced -->
+  <project remote="yocto"  name="poky"                path="sources"/>
+  <project remote="yocto"  name="meta-xilinx"         path="sources/meta-xilinx"/>
+  <project remote="yocto"  name="meta-virtualization" path="sources/meta-virtualization"/>
+  <project remote="yocto"  name="meta-selinux"        path="sources/meta-selinux"/>
+  <project remote="oe"     name="meta-openembedded"   path="sources/meta-openembedded"/>
+  <project remote="qt5"    name="meta-qt5"            path="sources/meta-qt5"/>
+  <project remote="linaro" name="meta-linaro"         path="sources/meta-linaro"/>
+  <project remote="cyrilc" name="meta-petalinux"      path="sources/meta-petalinux"/>
+  <project remote="go"     name="oe-meta-go"          path="sources/meta-go"/>
+</manifest>
