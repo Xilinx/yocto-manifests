@@ -10,4 +10,5 @@
   <project remote="xilinx" revision="dev"    name="Yocto/meta-xilinx"   path="sources/yocto/meta-xilinx"/>
   <project remote="xilinx" revision="master" name="Linux/linux-xlnx"    path="sources/linux"/>
   <project remote="xilinx" revision="master" name="Linux/u-boot-xlnx"   path="sources/u-boot"/>
+  <project remote="xilinx" revision="master" name="cyrilc/libmetal"     path="sources/libmetal"/>
 </manifest>
