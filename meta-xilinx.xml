@@ -6,6 +6,6 @@
   <default sync-j="4"/>
 
   <project remote="oe"     revision="fido"        name="openembedded-core"   path="sources"/>
-  <project remote="oe"     revision="1.28"        name="bitbake"             path="sources/bitbake"/>
+  <project remote="oe"     revision="1.26"        name="bitbake"             path="sources/bitbake"/>
   <project remote="xilinx" revision="rel-v2015.4" name="meta-xilinx"         path="sources/meta-xilinx"/>
 </manifest>
