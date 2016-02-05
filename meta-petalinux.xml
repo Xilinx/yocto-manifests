@@ -8,7 +8,7 @@
 
   <project remote="xilinx" revision="rel-v2016.1" name="yocto-scripts"       path="."/>
   <project remote="oe"     revision="jethro"      name="openembedded-core"   path="sources/yocto"/>
-  <project remote="oe"     revision="jethro"      name="meta-openembedded"   path="sources/yocto"/>
+  <project remote="oe"     revision="jethro"      name="meta-openembedded"   path="sources/yocto/meta-openembedded"/>
   <project remote="oe"     revision="1.28"        name="bitbake"             path="sources/yocto/bitbake"/>
   <project remote="xilinx" revision="rel-v2016.1" name="meta-xilinx"         path="sources/yocto/meta-xilinx"/>
   <project remote="xilinx" revision="rel-v2016.1" name="meta-petalinux"      path="sources/yocto/meta-petalinux"/>
