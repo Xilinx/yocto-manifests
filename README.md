@@ -42,24 +42,15 @@ Create an empty directory to hold your working files:
     $ mkdir -p $XILINX_SOURCES
     $ cd $XILINX_SOURCES
 
-Tell Repo where to find the manifest:
+To test out the release branch type:
 
-    $ repo init -u git://gitenterprise/Yocto/yocto-manifests.git
+    $ repo init -u git://gitenterprise/Yocto/yocto-manifests.git -m meta-xilinx.xml -b rel-v2016.1
+    $ repo sync
 
 A successful initialization will end with a message stating that Repo is
 initialized in your working directory. Your directory should now contain a
 .repo directory where repo control files such as the manifest are stored but
 you should not need to touch this directory.
-
-To test out a known stable yocto version (example: fido), type:
-
-    $ repo init -u git://gitenterprise/Yocto/yocto-manifests.git -m meta-xilinx.xml -b fido
-    $ repo sync
-
-To get back to the latest master branch, type:
-
-    $ repo init -u git://gitenterprise/Yocto/yocto-manifests.git -m meta-xilinx.xml -b master
-    $ repo sync
 
 To learn more about repo, look at http://source.android.com/source/version-control.html
 ***
