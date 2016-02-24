@@ -18,6 +18,4 @@
   <project remote="xilinx" revision="rel-v2016.1" name="meta-petalinux"      path="sources/yocto/meta-petalinux"/>
   <project remote="linaro" revision="jethro"      name="meta-linaro"         path="sources/yocto/meta-linaro"/>
   <project remote="yocto"  revision="jethro"      name="meta-virtualization" path="sources/yocto/meta-virtualization"/>
-  <project remote="go"     revision="jethro"      name="oe-meta-go"          path="sources/yocto/meta-go"/>
-  <project remote="yocto"  revision="jethro"      name="meta-selinux"        path="sources/yocto/meta-selinux"/>
 </manifest>
