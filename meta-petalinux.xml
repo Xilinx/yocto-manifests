@@ -9,14 +9,14 @@
 
   <default sync-j="4"/>
 
-  <project remote="xilinx" revision="rel-v2016.1" name="yocto-scripts"       path="."/>
-  <project remote="yocto"  revision="jethro"      name="poky"                path="sources/yocto"/>
-  <project remote="oe"     revision="jethro"      name="meta-openembedded"   path="sources/yocto/meta-openembedded"/>
-  <project remote="oe"     revision="1.28"        name="bitbake"             path="sources/yocto/bitbake"/>
-  <project remote="qt5"    revision="jethro"      name="meta-qt5"            path="sources/yocto/meta-qt5"/>
-  <project remote="xilinx" revision="rel-v2016.1" name="meta-xilinx"         path="sources/yocto/meta-xilinx"/>
-  <project remote="xilinx" revision="rel-v2016.1" name="meta-petalinux"      path="sources/yocto/meta-petalinux"/>
-  <project remote="linaro" revision="jethro"      name="meta-linaro"         path="sources/yocto/meta-linaro"/>
-  <project remote="yocto"  revision="jethro"      name="meta-virtualization" path="sources/yocto/meta-virtualization"/>
-  <project remote="yocto"  revision="jethro"      name="meta-mingw"          path="sources/yocto/meta-mingw"/>
+  <project remote="xilinx" revision="dev"         name="yocto-scripts"       path="."/>
+  <project remote="yocto"  revision="krogoth"     name="poky"                path="sources/yocto"/>
+  <project remote="oe"     revision="krogoth"     name="meta-openembedded"   path="sources/yocto/meta-openembedded"/>
+  <project remote="oe"     revision="1.30"        name="bitbake"             path="sources/yocto/bitbake"/>
+  <project remote="qt5"    revision="krogoth"     name="meta-qt5"            path="sources/yocto/meta-qt5"/>
+  <project remote="xilinx" revision="dev"         name="meta-xilinx"         path="sources/yocto/meta-xilinx"/>
+  <project remote="xilinx" revision="dev"         name="meta-petalinux"      path="sources/yocto/meta-petalinux"/>
+  <project remote="linaro" revision="krogoth"     name="meta-linaro"         path="sources/yocto/meta-linaro"/>
+  <project remote="yocto"  revision="krogoth"     name="meta-virtualization" path="sources/yocto/meta-virtualization"/>
+  <project remote="yocto"  revision="krogoth"     name="meta-mingw"          path="sources/yocto/meta-mingw"/>
 </manifest>
