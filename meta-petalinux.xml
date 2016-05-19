@@ -18,5 +18,4 @@
   <project remote="xilinx" revision="dev"         name="meta-petalinux"      path="sources/yocto/meta-petalinux"/>
   <project remote="linaro" revision="krogoth"     name="meta-linaro"         path="sources/yocto/meta-linaro"/>
   <project remote="yocto"  revision="krogoth"     name="meta-virtualization" path="sources/yocto/meta-virtualization"/>
-  <project remote="yocto"  revision="krogoth"     name="meta-mingw"          path="sources/yocto/meta-mingw"/>
 </manifest>
