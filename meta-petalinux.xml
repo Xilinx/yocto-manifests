@@ -6,11 +6,11 @@
 
   <default sync-j="4"/>
 
-  <project remote="xilinx" revision="rel-v2016.1" name="yocto-scripts"       path="."/>
+  <project remote="xilinx" revision="rel-v2016.2" name="yocto-scripts"       path="."/>
   <project remote="oe"     revision="jethro"      name="openembedded-core"   path="sources/yocto"/>
   <project remote="oe"     revision="jethro"      name="meta-openembedded"   path="sources/yocto/meta-openembedded"/>
   <project remote="oe"     revision="1.28"        name="bitbake"             path="sources/yocto/bitbake"/>
   <project remote="qt5"    revision="jethro"      name="meta-qt5"            path="sources/yocto/meta-qt5"/>
-  <project remote="xilinx" revision="rel-v2016.1" name="meta-xilinx"         path="sources/yocto/meta-xilinx"/>
-  <project remote="xilinx" revision="rel-v2016.1" name="meta-petalinux"      path="sources/yocto/meta-petalinux"/>
+  <project remote="xilinx" revision="rel-v2016.2" name="meta-xilinx"         path="sources/yocto/meta-xilinx"/>
+  <project remote="xilinx" revision="rel-v2016.2" name="meta-petalinux"      path="sources/yocto/meta-petalinux"/>
 </manifest>
