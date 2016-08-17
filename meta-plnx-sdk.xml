@@ -11,6 +11,7 @@
   <default sync-j="4"/>
 
   <project remote="xilinx" revision="dev"         name="yocto-scripts"            path="."/>
+  <project remote="oe"     revision="krogoth"     name="openembedded-core"        path="sources/openembedded-core"/>
   <project remote="oe"     revision="1.30"        name="bitbake"                  path="sources/openembedded-core/bitbake"/>
   <project remote="xilinx" revision="dev"         name="meta-xilinx"              path="sources/openembedded-core/meta-xilinx"/>
   <project remote="xilinx" revision="master"      name="meta-xilinx-tools"        path="sources/openembedded-core/meta-xilinx-tools"/>
