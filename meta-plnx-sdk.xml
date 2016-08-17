@@ -11,11 +11,11 @@
   <default sync-j="4"/>
 
   <project remote="xilinx" revision="dev"         name="yocto-scripts"            path="."/>
-  <project remote="oe"     revision="krogoth"     name="openembedded-core"        path="sources/openembedded-core"/>
-  <project remote="oe"     revision="1.30"        name="bitbake"                  path="sources/openembedded-core/bitbake"/>
-  <project remote="xilinx" revision="dev"         name="meta-xilinx"              path="sources/openembedded-core/meta-xilinx"/>
-  <project remote="xilinx" revision="master"      name="meta-xilinx-tools"        path="sources/openembedded-core/meta-xilinx-tools"/>
-  <project remote="xilinx" revision="dev"         name="meta-petalinux"           path="sources/openembedded-core/meta-petalinux"/>
+  <project remote="yocto"  revision="krogoth"     name="poky"                     path="sources/yocto"/>
+  <project remote="oe"     revision="1.30"        name="bitbake"                  path="sources/yocto/bitbake"/>
+  <project remote="xilinx" revision="dev"         name="meta-xilinx"              path="sources/yocto/meta-xilinx"/>
+  <project remote="xilinx" revision="master"      name="meta-xilinx-tools"        path="sources/yocto/meta-xilinx-tools"/>
+  <project remote="xilinx" revision="dev"         name="meta-petalinux"           path="sources/yocto/meta-petalinux"/>
   <project remote="oe"     revision="krogoth"     name="meta-openembedded"        path="sources/meta-openembedded"/>
   <project remote="qt5"    revision="krogoth"     name="meta-qt5"                 path="sources/meta-qt5"/>
   <project remote="linaro" revision="krogoth"     name="meta-linaro"              path="sources/meta-linaro"/>
