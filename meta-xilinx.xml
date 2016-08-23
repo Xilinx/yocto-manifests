@@ -5,9 +5,9 @@
 
   <default sync-j="4"/>
 
-  <project remote="xilinx" revision="dev"         name="yocto-scripts"       path="."/>
-  <project remote="oe"     revision="krogoth"     name="openembedded-core"   path="sources/yocto"/>
-  <project remote="oe"     revision="krogoth"     name="meta-openembedded"   path="sources/yocto/meta-openembedded"/>
-  <project remote="oe"     revision="1.30"        name="bitbake"             path="sources/yocto/bitbake"/>
-  <project remote="xilinx" revision="dev"         name="meta-xilinx"         path="sources/yocto/meta-xilinx"/>
+  <project remote="xilinx" revision="dev"         name="yocto-scripts"            path="."/>
+  <project remote="oe"     revision="1.30"        name="bitbake"                  path="sources/poky/bitbake"/>
+  <project remote="xilinx" revision="dev"         name="meta-xilinx"              path="sources/meta-xilinx"/>
+  <project remote="oe"     revision="krogoth"     name="meta-openembedded"        path="sources/meta-openembedded"/>
+  <project remote="yocto"  revision="krogoth"     name="poky"                     path="sources/poky"/>
 </manifest>
