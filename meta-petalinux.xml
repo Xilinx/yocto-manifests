@@ -4,7 +4,7 @@
   <remote name="yocto"   fetch="git://git.yoctoproject.org"/>
   <remote name="linaro"  fetch="git://git.linaro.org/openembedded"/>
   <remote name="go"      fetch="git://github.com/errordeveloper"/>
-  <remote name="xilinx"  fetch="git://git.gitenterprise.xilinx.com/Yocto"/>
+  <remote name="xilinx"  fetch="ssh://git@gitenterprise/Yocto"/>
   <remote name="qt5"     fetch="git://github.com/meta-qt5"/>
 
   <default sync-j="4"/>
@@ -16,7 +16,7 @@
   <project remote="yocto"  revision="krogoth"     name="meta-virtualization"      path="sources/meta-virtualization"/>
   <project remote="yocto"  revision="krogoth"     name="poky"                     path="sources/poky"/>
   <project remote="oe"     revision="1.30"        name="bitbake"                  path="sources/poky/bitbake"/>
-  <project remote="xilinx" revision="prod-rel-v2016.3" name="meta-xilinx"         path="sources/meta-xilinx"/>
+  <project remote="xilinx" revision="dev"         name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="xilinx" revision="master"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
-  <project remote="xilinx" revision="prod-rel-v2016.3" name="meta-petalinux"      path="sources/meta-petalinux"/>
+  <project remote="xilinx" revision="dev"         name="meta-petalinux"           path="sources/meta-petalinux"/>
 </manifest>
