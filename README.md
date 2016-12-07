@@ -44,7 +44,7 @@ Create an empty directory to hold your working files:
 
 To test out the release branch type:
 
-    $ repo init -u git://github.com/Xilinx/yocto-manifests.git -m meta-petalinux.xml -b rel-v2016.3
+    $ repo init -u git://github.com/Xilinx/yocto-manifests.git -m meta-petalinux.xml -b rel-v2016.4
     $ repo sync
 
 A successful initialization will end with a message stating that Repo is
