@@ -16,7 +16,7 @@
   <project remote="yocto"  revision="krogoth"     name="meta-virtualization"      path="sources/meta-virtualization"/>
   <project remote="yocto"  revision="krogoth"     name="poky"                     path="sources/poky"/>
   <project remote="oe"     revision="1.30"        name="bitbake"                  path="sources/poky/bitbake"/>
-  <project remote="xilinx" revision="rel-v2016.3" name="meta-xilinx"              path="sources/meta-xilinx"/>
-  <project remote="xilinx" revision="rel-v2016.3" name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
-  <project remote="xilinx" revision="rel-v2016.3" name="meta-petalinux"           path="sources/meta-petalinux"/>
+  <project remote="xilinx" revision="rel-v2016.4" name="meta-xilinx"              path="sources/meta-xilinx"/>
+  <project remote="xilinx" revision="rel-v2016.4" name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
+  <project remote="xilinx" revision="rel-v2016.4" name="meta-petalinux"           path="sources/meta-petalinux"/>
 </manifest>
