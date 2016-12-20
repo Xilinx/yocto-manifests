@@ -17,6 +17,6 @@
   <project remote="yocto"  revision="krogoth"     name="poky"                     path="sources/poky"/>
   <project remote="oe"     revision="1.30"        name="bitbake"                  path="sources/poky/bitbake"/>
   <project remote="xilinx" revision="dev"         name="meta-xilinx"              path="sources/meta-xilinx"/>
-  <project remote="xilinx" revision="master"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
+  <project remote="xilinx" revision="dev"         name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
   <project remote="xilinx" revision="dev"         name="meta-petalinux"           path="sources/meta-petalinux"/>
 </manifest>
