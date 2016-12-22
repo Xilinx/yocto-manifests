@@ -6,6 +6,7 @@
   <remote name="go"      fetch="git://github.com/errordeveloper"/>
   <remote name="xilinx"  fetch="ssh://git@gitenterprise/Yocto"/>
   <remote name="qt5"     fetch="git://github.com/meta-qt5"/>
+  <remote name="openamp" fetch="git://github.com/OpenAMP"/>
 
   <default sync-j="4"/>
 
@@ -16,6 +17,7 @@
   <project remote="yocto"  revision="krogoth"     name="meta-virtualization"      path="sources/meta-virtualization"/>
   <project remote="yocto"  revision="krogoth"     name="poky"                     path="sources/poky"/>
   <project remote="oe"     revision="1.30"        name="bitbake"                  path="sources/poky/bitbake"/>
+  <project remote="openamp" revision="krogoth"    name="meta-openamp"             path="sources/meta-openamp"/>
   <project remote="xilinx" revision="dev"         name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="xilinx" revision="dev"         name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
   <project remote="xilinx" revision="dev"         name="meta-petalinux"           path="sources/meta-petalinux"/>
