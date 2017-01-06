@@ -18,7 +18,7 @@
   <project remote="yocto"  revision="morty"       name="poky"                     path="sources/poky"/>
   <project remote="oe"     revision="1.32"        name="bitbake"                  path="sources/poky/bitbake"/>
   <project remote="openamp" revision="master"     name="meta-openamp"             path="sources/meta-openamp"/>
-  <project remote="xilinx" revision="dev"         name="meta-xilinx"              path="sources/meta-xilinx"/>
+  <project remote="xilinx" revision="dev-2017.1"  name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="xilinx" revision="dev"         name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
-  <project remote="xilinx" revision="dev"         name="meta-petalinux"           path="sources/meta-petalinux"/>
+  <project remote="xilinx" revision="dev-2017.1"  name="meta-petalinux"           path="sources/meta-petalinux"/>
 </manifest>
