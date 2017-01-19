@@ -21,4 +21,5 @@
   <project remote="xilinx" revision="dev-2017.1"  name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="xilinx" revision="dev"         name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
   <project remote="xilinx" revision="dev-2017.1"  name="meta-petalinux"           path="sources/meta-petalinux"/>
+  <project remote="xilinx" revision="dev"         name="yocto-manifests"          path="sources/manifest"/>
 </manifest>
