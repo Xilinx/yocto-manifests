@@ -15,8 +15,8 @@
   <project remote="qt5"    revision="morty"       name="meta-qt5"                 path="sources/meta-qt5"/>
   <project remote="linaro" revision="morty"       name="meta-linaro"              path="sources/meta-linaro"/>
   <project remote="yocto"  revision="morty"       name="meta-virtualization"      path="sources/meta-virtualization"/>
-  <project remote="xilinx" revision="dev-2017.1"  name="core"                     path="sources/poky"/>
-  <project remote="oe"     revision="1.32"        name="bitbake"                  path="sources/poky/bitbake"/>
+  <project remote="xilinx" revision="dev-2017.1"  name="poky"                     path="sources/core"/>
+  <project remote="oe"     revision="1.32"        name="bitbake"                  path="sources/core/bitbake"/>
   <project remote="openamp" revision="master"     name="meta-openamp"             path="sources/meta-openamp"/>
   <project remote="xilinx" revision="dev-2017.1"  name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="xilinx" revision="dev"         name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
