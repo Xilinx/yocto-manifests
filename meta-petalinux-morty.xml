@@ -13,7 +13,7 @@
   <project remote="xilinx" revision="dev"         name="yocto-scripts"            path="."/>
   <project remote="oe"     revision="morty"       name="meta-openembedded"        path="sources/meta-openembedded"/>
   <project remote="qt5"    revision="morty"       name="meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="linaro" revision="morty"       name="meta-linaro"              path="sources/meta-linaro"/>
+  <project remote="xilinx" revision="dev-2017.1"  name="meta-linaro"              path="sources/meta-linaro"/>
   <project remote="yocto"  revision="morty"       name="meta-virtualization"      path="sources/meta-virtualization"/>
   <project remote="xilinx" revision="dev-2017.1"  name="poky"                     path="sources/core"/>
   <project remote="oe"     revision="1.32"        name="bitbake"                  path="sources/core/bitbake"/>
