@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="oe"      fetch="git://git.openembedded.org"/>
-  <remote name="yocto"   fetch="git://git.yoctoproject.org"/>
-  <remote name="linaro"  fetch="git://git.linaro.org/openembedded"/>
-  <remote name="go"      fetch="git://github.com/errordeveloper"/>
   <remote name="xilinx"  fetch="git://gitenterprise.xilinx.com/Yocto"/>
-  <remote name="openamp" fetch="git://github.com/OpenAMP"/>
 
-  <default sync-j="4"/>
+  <default sync-j="16"/>
 
   <project remote="xilinx" revision="dev"         name="yocto-scripts"            path="."/>
-  <project remote="oe"     revision="morty"       name="meta-openembedded"        path="sources/meta-openembedded"/>
+  <project remote="xilinx" revision="dev"         name="yocto-manifests"          path="sources/manifest"/>
+  <project remote="xilinx" revision="dev-2017.1"  name="meta-openembedded"        path="sources/meta-openembedded"/>
   <project remote="xilinx" revision="dev-2017.1"  name="meta-qt5"                 path="sources/meta-qt5"/>
   <project remote="xilinx" revision="dev-2017.1"  name="meta-linaro"              path="sources/meta-linaro"/>
   <project remote="xilinx" revision="dev-2017.1"  name="meta-virtualization"      path="sources/meta-virtualization"/>
   <project remote="xilinx" revision="dev-2017.1"  name="poky"                     path="sources/core"/>
-  <project remote="oe"     revision="1.32"        name="bitbake"                  path="sources/core/bitbake"/>
-  <project remote="openamp" revision="master"     name="meta-openamp"             path="sources/meta-openamp"/>
+  <project remote="xilinx" revision="dev-2017.1"  name="bitbake"                  path="sources/core/bitbake"/>
+  <project remote="xilinx" revision="dev-2017.1"  name="meta-openamp"             path="sources/meta-openamp"/>
   <project remote="xilinx" revision="dev-2017.1"  name="meta-xilinx"              path="sources/meta-xilinx"/>
-  <project remote="xilinx" revision="dev"         name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
+  <project remote="xilinx" revision="dev-2017.1"  name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
   <project remote="xilinx" revision="dev-2017.1"  name="meta-petalinux"           path="sources/meta-petalinux"/>
-  <project remote="xilinx" revision="dev"         name="yocto-manifests"          path="sources/manifest"/>
 </manifest>
