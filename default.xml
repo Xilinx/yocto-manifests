@@ -6,14 +6,14 @@
 
   <project remote="xilinx" revision="dev"         name="yocto-scripts"            path="."/>
   <project remote="xilinx" revision="dev"         name="yocto-manifests"          path="sources/manifest"/>
-  <project remote="xilinx" revision="dev-2017.1"  name="meta-openembedded"        path="sources/meta-openembedded"/>
-  <project remote="xilinx" revision="dev-2017.1"  name="meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="xilinx" revision="dev-2017.1"  name="meta-linaro"              path="sources/meta-linaro"/>
-  <project remote="xilinx" revision="dev-2017.1"  name="meta-virtualization"      path="sources/meta-virtualization"/>
-  <project remote="xilinx" revision="dev-2017.1"  name="poky"                     path="sources/core"/>
-  <project remote="xilinx" revision="dev-2017.1"  name="bitbake"                  path="sources/core/bitbake"/>
-  <project remote="xilinx" revision="dev-2017.1"  name="meta-openamp"             path="sources/meta-openamp"/>
-  <project remote="xilinx" revision="dev-2017.1"  name="meta-xilinx"              path="sources/meta-xilinx"/>
-  <project remote="xilinx" revision="dev-2017.1"  name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
-  <project remote="xilinx" revision="dev-2017.1"  name="meta-petalinux"           path="sources/meta-petalinux"/>
+  <project remote="xilinx" revision="dev-2017.3"  name="meta-openembedded"        path="sources/meta-openembedded"/>
+  <project remote="xilinx" revision="dev-2017.3"  name="meta-qt5"                 path="sources/meta-qt5"/>
+  <project remote="xilinx" revision="dev-2017.3"  name="meta-linaro"              path="sources/meta-linaro"/>
+  <project remote="xilinx" revision="dev-2017.3"  name="meta-virtualization"      path="sources/meta-virtualization"/>
+  <project remote="xilinx" revision="dev-2017.3"  name="poky"                     path="sources/core"/>
+  <project remote="xilinx" revision="dev-2017.3"  name="bitbake"                  path="sources/core/bitbake"/>
+  <project remote="xilinx" revision="dev-2017.3"  name="meta-openamp"             path="sources/meta-openamp"/>
+  <project remote="xilinx" revision="dev-2017.3"  name="meta-xilinx"              path="sources/meta-xilinx"/>
+  <project remote="xilinx" revision="dev-2017.3"  name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
+  <project remote="xilinx" revision="dev-2017.3"  name="meta-petalinux"           path="sources/meta-petalinux"/>
 </manifest>
