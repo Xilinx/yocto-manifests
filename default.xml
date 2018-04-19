@@ -18,7 +18,7 @@
 
   <project remote="xilinx"  revision="rel-v2018.3"      name="poky"                     path="sources/core"/>
   <project remote="xilinx"  revision="rel-v2018.3"      name="meta-mingw"               path="sources/meta-mingw"/>
-  <project remote="xilinx"  revision="rel-v2018.1"      name="meta-openamp"             path="sources/meta-openamp"/>
+  <project remote="xilinx"  revision="master"           name="meta-openamp"             path="sources/meta-openamp"/>
   <project remote="oss"     revision="master"           name="meta-browser"             path="sources/meta-browser"/>
   <project remote="xilinx"  revision="rel-v2018.3"      name="meta-openembedded"        path="sources/meta-openembedded"/>
   <project remote="xilinx"  revision="rel-v2018.3"      name="meta-qt5"                 path="sources/meta-qt5"/>
