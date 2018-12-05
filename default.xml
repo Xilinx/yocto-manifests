@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="oe"      fetch="git://git.openembedded.org"/>
-  <remote name="yocto"   fetch="git://git.yoctoproject.org"/>
-  <remote name="linaro"  fetch="git://git.linaro.org/openembedded"/>
   <remote name="xilinx"  fetch="git://git.gitenterprise.xilinx.com/Yocto"/>
-  <remote name="qt5"     fetch="git://github.com/meta-qt5"/>
-  <remote name="openamp" fetch="git://github.com/OpenAMP"/>
-  <remote name="oss"     fetch="git://github.com/OSSystems"/>
 
   <default sync-j="4"/>
 
   <project remote="xilinx"  revision="rel-v2018.3"      name="yocto-scripts"            path="."/>
-  <project remote="xilinx"  revision="rel-v2018.3"      name="yocto-manifests"          path="sources/manifest"/>
-  <project remote="xilinx"  revision="rel-v2018.3"      name="meta-xilinx"              path="sources/meta-xilinx"/>
-  <project remote="xilinx"  revision="rel-v2018.3"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
-  <project remote="xilinx"  revision="rel-v2018.3"      name="meta-petalinux"           path="sources/meta-petalinux"/>
-  <project remote="xilinx"  revision="rel-v2019.1"      name="meta-xilinx-internal"     path="sources/meta-xilinx-internal"/>
+  <project remote="xilinx"  revision="next-v2019.1"     name="yocto-manifests"          path="sources/manifest"/>
+  <project remote="xilinx"  revision="rel-v2019.1"      name="meta-xilinx"              path="sources/meta-xilinx"/>
+  <project remote="xilinx"  revision="rel-v2019.1"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
+  <project remote="xilinx"  revision="rel-v2019.1"      name="meta-petalinux"           path="sources/meta-petalinux"/>
+  <project remote="xilinx"  revision="next-v2019.1"     name="meta-xilinx-internal"     path="sources/meta-xilinx-internal"/>
 
-  <project remote="xilinx"  revision="rel-v2018.3"      name="poky"                     path="sources/core"/>
-  <project remote="xilinx"  revision="rel-v2018.3"      name="meta-mingw"               path="sources/meta-mingw"/>
+  <project remote="xilinx"  revision="rel-v2019.1"      name="poky"                     path="sources/core"/>
+  <project remote="xilinx"  revision="rel-v2019.1"      name="meta-mingw"               path="sources/meta-mingw"/>
   <project remote="xilinx"  revision="master"           name="meta-openamp"             path="sources/meta-openamp"/>
-  <project remote="xilinx"  revision="rel-v2018.3"      name="meta-browser"             path="sources/meta-browser"/>
-  <project remote="xilinx"  revision="rel-v2018.3"      name="meta-openembedded"        path="sources/meta-openembedded"/>
-  <project remote="xilinx"  revision="rel-v2018.3"      name="meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="xilinx"  revision="rel-v2018.3"      name="meta-linaro"              path="sources/meta-linaro"/>
-  <project remote="xilinx"  revision="rel-v2018.3"      name="meta-virtualization"      path="sources/meta-virtualization"/>
+  <project remote="xilinx"  revision="rel-v2019.1"      name="meta-browser"             path="sources/meta-browser"/>
+  <project remote="xilinx"  revision="rel-v2019.1"      name="meta-openembedded"        path="sources/meta-openembedded"/>
+  <project remote="xilinx"  revision="rel-v2019.1"      name="meta-qt5"                 path="sources/meta-qt5"/>
+  <project remote="xilinx"  revision="rel-v2019.1"      name="meta-linaro"              path="sources/meta-linaro"/>
+  <project remote="xilinx"  revision="rel-v2019.1"      name="meta-virtualization"      path="sources/meta-virtualization"/>
 
 </manifest>
