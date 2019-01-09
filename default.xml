@@ -5,11 +5,11 @@
   <default sync-j="4"/>
 
   <project remote="xilinx"  revision="rel-v2019.1"      name="yocto-scripts"            path="."/>
-  <project remote="xilinx"  revision="next-v2019.1"     name="yocto-manifests"          path="sources/manifest"/>
+  <project remote="xilinx"  revision="rel-v2019.1"     name="yocto-manifests"          path="sources/manifest"/>
   <project remote="xilinx"  revision="rel-v2019.1"      name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="xilinx"  revision="rel-v2019.1"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
   <project remote="xilinx"  revision="rel-v2019.1"      name="meta-petalinux"           path="sources/meta-petalinux"/>
-  <project remote="xilinx"  revision="next-v2019.1"     name="meta-xilinx-internal"     path="sources/meta-xilinx-internal"/>
+  <project remote="xilinx"  revision="rel-v2019.1"     name="meta-xilinx-internal"     path="sources/meta-xilinx-internal"/>
 
   <project remote="xilinx"  revision="rel-v2019.1"      name="poky"                     path="sources/core"/>
   <project remote="xilinx"  revision="rel-v2019.1"      name="meta-mingw"               path="sources/meta-mingw"/>
