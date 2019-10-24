@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="xilinx"  fetch="git://git.gitenterprise.xilinx.com/Yocto"/>
+  <remote name="xilinx"  fetch="git://github.com/xilinx"/>
 
   <default sync-j="4"/>
 
@@ -18,6 +18,6 @@
   <project remote="xilinx"  revision="rel-v2019.2"      name="meta-qt5"                 path="sources/meta-qt5"/>
   <project remote="xilinx"  revision="rel-v2019.2"      name="meta-linaro"              path="sources/meta-linaro"/>
   <project remote="xilinx"  revision="rel-v2019.2"      name="meta-virtualization"      path="sources/meta-virtualization"/>
-  <project remote="xilinx"  revision="master"           name="meta-jupyter"             path="sources/meta-jupyter"/>
+  <project remote="xilinx"  revision="rel-v2019.2"      name="meta-jupyter"             path="sources/meta-jupyter"/>
 
 </manifest>
