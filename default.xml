@@ -12,7 +12,7 @@
   <project remote="xilinx"  revision="rel-v2020.1-next" name="meta-xilinx-internal"     path="sources/meta-xilinx-internal"/>
 
   <project remote="xilinx"  revision="rel-v2020.1"      name="poky"                     path="sources/core"/>
-  <project remote="xilinx"  revision="zeus"             name="meta-mingw"               path="sources/meta-mingw"/>
+  <project remote="xilinx"  revision="rel-v2020.1"      name="meta-mingw"               path="sources/meta-mingw"/>
   <project remote="xilinx"  revision="rel-v2020.1"      name="meta-openamp"             path="sources/meta-openamp"/>
   <project remote="xilinx"  revision="rel-v2020.1"      name="meta-browser"             path="sources/meta-browser"/>
   <project remote="xilinx"  revision="zeus"             name="meta-openembedded"        path="sources/meta-openembedded"/>
