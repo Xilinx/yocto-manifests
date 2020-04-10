@@ -16,9 +16,9 @@
   <project remote="xilinx"  revision="rel-v2020.1"      name="meta-openamp"             path="sources/meta-openamp"/>
   <project remote="xilinx"  revision="rel-v2020.1"      name="meta-clang"               path="sources/meta-clang"/>
   <project remote="xilinx"  revision="rel-v2020.1"      name="meta-browser"             path="sources/meta-browser"/>
-  <project remote="xilinx"  revision="zeus"             name="meta-openembedded"        path="sources/meta-openembedded"/>
-  <project remote="xilinx"  revision="zeus"             name="meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="xilinx"  revision="zeus"             name="meta-linaro"              path="sources/meta-linaro"/>
+  <project remote="xilinx"  revision="rel-v2020.1"      name="meta-openembedded"        path="sources/meta-openembedded"/>
+  <project remote="xilinx"  revision="rel-v2020.1"      name="meta-qt5"                 path="sources/meta-qt5"/>
+  <project remote="xilinx"  revision="rel-v2020.1"      name="meta-linaro"              path="sources/meta-linaro"/>
   <project remote="xilinx"  revision="rel-v2020.1"      name="meta-virtualization"      path="sources/meta-virtualization"/>
   <project remote="xilinx"  revision="rel-v2020.1"      name="meta-jupyter"             path="sources/meta-jupyter"/>
   <project remote="xilinx"  revision="rel-v2020.1"      name="meta-vitis-ai"            path="sources/meta-vitis-ai"/>
