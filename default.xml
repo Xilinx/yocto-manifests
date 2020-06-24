@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="xilinx"  fetch="https://git.gitenterprise.xilinx.com/Yocto"/>
+  <remote name="xilinx"  fetch="https://gitenterprise.xilinx.com/Yocto"/>
 
   <default sync-j="4"/>
 
