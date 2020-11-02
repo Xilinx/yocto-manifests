@@ -22,5 +22,6 @@
   <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-virtualization"      path="sources/meta-virtualization"/>
   <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-jupyter"             path="sources/meta-jupyter"/>
   <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-vitis-ai"            path="sources/meta-vitis-ai"/>
+  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-som"                 path="sources/meta-som"/>
 
 </manifest>
