@@ -24,5 +24,6 @@
   <project remote="xilinx"  revision="rel-v2021.1"      name="meta-xilinx-internal"     path="sources/meta-xilinx-internal"/>
   <project remote="xilinx"  revision="rel-v2021.1"      name="meta-som"                 path="sources/meta-som"/>
   <project remote="xilinx"  revision="rel-v2021.1"      name="meta-security"            path="sources/meta-security"/>
+  <project remote="xilinx"  revision="rel-v2021.1"      name="meta-python2"             path="sources/meta-python2"/>
 
 </manifest>
