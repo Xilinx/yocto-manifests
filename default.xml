@@ -4,7 +4,9 @@
 
   <default sync-j="4"/>
 
-  <project remote="xilinx"  revision="2021"      name="yocto-scripts"            path="."/>
+  <project remote="xilinx"  revision="2021"      name="yocto-scripts"            path="sources/yocto-scripts">
+       <copyfile dest="setupsdk" src="setupsdk"/>
+  </project>
   <project remote="xilinx"  revision="2021"      name="yocto-manifests"          path="sources/manifest"/>
   <project remote="xilinx"  revision="2021"      name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="xilinx"  revision="2021"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
