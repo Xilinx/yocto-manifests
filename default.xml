@@ -4,27 +4,27 @@
 
   <default sync-j="4"/>
 
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="yocto-scripts"            path="sources/yocto-scripts">
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="yocto-scripts"            path="sources/yocto-scripts">
        <copyfile dest="setupsdk" src="setupsdk"/>
   </project>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="yocto-manifests"          path="sources/manifest"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-xilinx"              path="sources/meta-xilinx"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-petalinux"           path="sources/meta-petalinux"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-xilinx-internal"     path="sources/meta-xilinx-internal"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="yocto-manifests"          path="sources/manifest"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-xilinx"              path="sources/meta-xilinx"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-petalinux"           path="sources/meta-petalinux"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-xilinx-internal"     path="sources/meta-xilinx-internal"/>
 
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="poky"                     path="sources/core"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-mingw"               path="sources/meta-mingw"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-openamp"             path="sources/meta-openamp"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-clang"               path="sources/meta-clang"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-browser"             path="sources/meta-browser"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-openembedded"        path="sources/meta-openembedded"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-linaro"              path="sources/meta-linaro"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-virtualization"      path="sources/meta-virtualization"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-jupyter"             path="sources/meta-jupyter"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-vitis-ai"            path="sources/meta-vitis-ai"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-som"                 path="sources/meta-som"/>
-  <project remote="xilinx"  revision="rel-v2020.2.2_SOM"      name="meta-security"            path="sources/meta-security"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="poky"                     path="sources/core"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-mingw"               path="sources/meta-mingw"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-openamp"             path="sources/meta-openamp"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-clang"               path="sources/meta-clang"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-browser"             path="sources/meta-browser"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-openembedded"        path="sources/meta-openembedded"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-qt5"                 path="sources/meta-qt5"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-linaro"              path="sources/meta-linaro"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-virtualization"      path="sources/meta-virtualization"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-jupyter"             path="sources/meta-jupyter"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-vitis-ai"            path="sources/meta-vitis-ai"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-som"                 path="sources/meta-som"/>
+  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-security"            path="sources/meta-security"/>
 
 </manifest>
