@@ -11,7 +11,6 @@
   <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
   <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-petalinux"           path="sources/meta-petalinux"/>
-  <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-xilinx-internal"     path="sources/meta-xilinx-internal"/>
 
   <project remote="xilinx"  revision="release-2020.2.2_k26"      name="poky"                     path="sources/core"/>
   <project remote="xilinx"  revision="release-2020.2.2_k26"      name="meta-mingw"               path="sources/meta-mingw"/>
