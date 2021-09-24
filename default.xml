@@ -10,7 +10,7 @@
   <project name="meta-mingw" path="sources/meta-mingw" remote="xilinx" revision="352d8b0aa3c7bbd5060a4cc2ebe7c0e964de4879" upstream="2021-experimental-dt-support"/>
   <project name="meta-openamp" path="sources/meta-openamp" remote="xilinx" revision="33d5ad855f8ce6bfb057880da33e56c4153e6575" upstream="2021-experimental-dt-support"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="xilinx" revision="29ca52c7826ad3044b53ccb5224016bd73abdb5c" upstream="2021-experimental-dt-support"/>
-  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="de9ec60c8c1a1485ad81b043874b244b2eee89c1" upstream="2021-experimental-dt-support"/>
+  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="3fc64436d38b2d5c5c12b1a4ccd96efa61ec650f" upstream="2021-experimental-dt-support"/>
   <project name="meta-python2" path="sources/meta-python2" remote="xilinx" revision="d9662a41f67c3425a356bce4ec29f82058127344" upstream="2021-experimental-dt-support"/>
   <project name="meta-qt5" path="sources/meta-qt5" remote="xilinx" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0" upstream="2021-experimental-dt-support"/>
   <project name="meta-security" path="sources/meta-security" remote="xilinx" revision="3daf99fd138b0eebe864bbe1b9c71241d97c4512" upstream="2021-experimental-dt-support"/>
