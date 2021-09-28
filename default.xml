@@ -8,14 +8,14 @@
   <project name="meta-clang" path="sources/meta-clang" remote="xilinx" revision="fbb032bfc535e0ed3127c171d4236a97d51c16df" upstream="2021-experimental-dt-support"/>
   <project name="meta-jupyter" path="sources/meta-jupyter" remote="xilinx" revision="f7cc19272a3512cd4a7d82fe5ca15b6dc0953a8d" upstream="2021-experimental-dt-support"/>
   <project name="meta-mingw" path="sources/meta-mingw" remote="xilinx" revision="352d8b0aa3c7bbd5060a4cc2ebe7c0e964de4879" upstream="2021-experimental-dt-support"/>
-  <project name="meta-openamp" path="sources/meta-openamp" remote="xilinx" revision="33d5ad855f8ce6bfb057880da33e56c4153e6575" upstream="2021-experimental-dt-support"/>
+  <project name="meta-openamp" path="sources/meta-openamp" remote="xilinx" revision="20408f5ce26817b5177c74f153d8931088b1daa7" upstream="2021-experimental-dt-support"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="xilinx" revision="29ca52c7826ad3044b53ccb5224016bd73abdb5c" upstream="2021-experimental-dt-support"/>
   <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="3fc64436d38b2d5c5c12b1a4ccd96efa61ec650f" upstream="2021-experimental-dt-support"/>
   <project name="meta-python2" path="sources/meta-python2" remote="xilinx" revision="d9662a41f67c3425a356bce4ec29f82058127344" upstream="2021-experimental-dt-support"/>
   <project name="meta-qt5" path="sources/meta-qt5" remote="xilinx" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0" upstream="2021-experimental-dt-support"/>
   <project name="meta-security" path="sources/meta-security" remote="xilinx" revision="3daf99fd138b0eebe864bbe1b9c71241d97c4512" upstream="2021-experimental-dt-support"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="xilinx" revision="1ae227b0c9c9e99681cb8d83232811ba6dd03b58" upstream="2021-experimental-dt-support"/>
-  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="b84396c5755aa1a1372996b4fa9f95e1ec85f339" upstream="2021-experimental-dt-support"/>
+  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="9a8d752c52335777ecb4a7ef7a3dd2a23732f346" upstream="2021-experimental-dt-support"/>
   <project name="poky" path="sources/core" remote="xilinx" revision="1239a0afe42a110a7ad00d2c2ef8e6edf68a6a10" upstream="2021-experimental-dt-support"/>
   <project name="yocto-manifests" path="sources/manifest" remote="xilinx" revision="2021-experimental-dt-support"/>
   <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="484bd017441f0d895f7d24a82192acdf497408a8" upstream="2021-experimental-dt-support">
