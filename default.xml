@@ -4,25 +4,25 @@
   
   <default sync-j="4"/>
   
-  <project name="meta-browser" path="sources/meta-browser" remote="xilinx" revision="1bff166b36072a8cacc0f29f02de5fa9748824e9" upstream="rel-v2021.1"/>
-  <project name="meta-clang" path="sources/meta-clang" remote="xilinx" revision="fbb032bfc535e0ed3127c171d4236a97d51c16df" upstream="rel-v2021.1"/>
-  <project name="meta-jupyter" path="sources/meta-jupyter" remote="xilinx" revision="4e2d30a3d67598ffa999e3e43613f81e1d35882c" upstream="rel-v2021.1"/>
-  <project name="meta-linaro" path="sources/meta-linaro" remote="xilinx" revision="11091b487e1ad4c6a4adfac34d958a3d9d9ccd17" upstream="rel-v2021.1"/>
-  <project name="meta-mingw" path="sources/meta-mingw" remote="xilinx" revision="352d8b0aa3c7bbd5060a4cc2ebe7c0e964de4879" upstream="rel-v2021.1"/>
-  <project name="meta-openamp" path="sources/meta-openamp" remote="xilinx" revision="bb519f0a01a0f44be47ff6d1e31674e3445b61a3" upstream="rel-v2021.1"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="xilinx" revision="29ca52c7826ad3044b53ccb5224016bd73abdb5c" upstream="rel-v2021.1"/>
-  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="7bae86971c43102c783b5519f6d21f4b6b57c0a4" upstream="rel-v2021.1"/>
-  <project name="meta-python2" path="sources/meta-python2" remote="xilinx" revision="d9662a41f67c3425a356bce4ec29f82058127344" upstream="rel-v2021.1"/>
-  <project name="meta-qt5" path="sources/meta-qt5" remote="xilinx" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0" upstream="rel-v2021.1"/>
-  <project name="meta-security" path="sources/meta-security" remote="xilinx" revision="3daf99fd138b0eebe864bbe1b9c71241d97c4512" upstream="rel-v2021.1"/>
-  <project name="meta-som" path="sources/meta-som" remote="xilinx" revision="9abfe2665c62702b49177e7da392f8cb4201a6fc" upstream="rel-v2021.1"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="xilinx" revision="0788b74c92b9854c8c1a623a060ded850fe37122" upstream="rel-v2021.1"/>
-  <project name="meta-vitis-ai" path="sources/meta-vitis-ai" remote="xilinx" revision="0863204904b58d80a6403d3eee64a2554d273bfe" upstream="rel-v2021.1"/>
-  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="d733a5689eff85d33993bda1d8d0fc04aabc31f7" upstream="rel-v2021.1"/>
-  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx" revision="9050e2c23921e199c7a3c76deb95d09383a3d6be" upstream="rel-v2021.1"/>
-  <project name="poky" path="sources/core" remote="xilinx" revision="1a07bce883aa05bb2fcf412384c671ace7a6e23f" upstream="rel-v2021.1"/>
-  <project name="yocto-manifests" path="sources/manifest" remote="xilinx" revision="rel-v2021.1"/>
-  <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="d91204ec73178637debfbe8568c83d7281ea2ccf" upstream="rel-v2021.1">
+  <project name="meta-browser" path="sources/meta-browser" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-clang" path="sources/meta-clang" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-jupyter" path="sources/meta-jupyter" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-linaro" path="sources/meta-linaro" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-mingw" path="sources/meta-mingw" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-openamp" path="sources/meta-openamp" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-python2" path="sources/meta-python2" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-security" path="sources/meta-security" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-som" path="sources/meta-som" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-vitis-ai" path="sources/meta-vitis-ai" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="poky" path="sources/core" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="yocto-manifests" path="sources/manifest" remote="xilinx" revision="rel-v2021.2"/>
+  <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="rel-v2021.2">
     <copyfile dest="setupsdk" src="setupsdk"/>
   </project>
 </manifest>
