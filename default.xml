@@ -15,7 +15,7 @@
   <project name="meta-qt5" path="sources/meta-qt5" remote="xilinx" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0" upstream="2021-experimental-dt-support"/>
   <project name="meta-security" path="sources/meta-security" remote="xilinx" revision="3daf99fd138b0eebe864bbe1b9c71241d97c4512" upstream="2021-experimental-dt-support"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="xilinx" revision="1ae227b0c9c9e99681cb8d83232811ba6dd03b58" upstream="2021-experimental-dt-support"/>
-  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="876a289d9181ade9b5c8f416da2f8d86d6c19333" upstream="2021-experimental-dt-support-update-1"/>
+  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="ceca39b529cb3935db1636840002b329c0c48681" upstream="2021-experimental-dt-support-update-1"/>
   <project name="poky" path="sources/core" remote="xilinx" revision="1239a0afe42a110a7ad00d2c2ef8e6edf68a6a10" upstream="2021-experimental-dt-support"/>
   <project name="yocto-manifests" path="sources/manifest" remote="xilinx" revision="2021-experimental-dt-support-update-1"/>
   <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="484bd017441f0d895f7d24a82192acdf497408a8" upstream="2021-experimental-dt-support">
