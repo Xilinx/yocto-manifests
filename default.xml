@@ -18,8 +18,8 @@
   <project name="meta-som" path="sources/meta-som" remote="xilinx" revision="23c3895992f5c7f4b60525bf12816feb1ba20040" upstream="rel-v2021.2"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="xilinx" revision="1ae227b0c9c9e99681cb8d83232811ba6dd03b58" upstream="rel-v2021.2"/>
   <project name="meta-vitis-ai" path="sources/meta-vitis-ai" remote="xilinx" revision="96b90b346ade8c36d7e911b6ce21fd41a77108ba" upstream="rel-v2021.2"/>
-  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="b9e0d5a296bd3dc407c36cec079c98488233ff0e" upstream="rel-v2021.2"/>
-  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx" revision="b838df925faaf771e82d01af6bd1913c50f8e74d" upstream="rel-v2021.2"/>
+  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="054cb2cb4c3ffe868ade68369433027989571cf6" upstream="rel-v2021.2"/>
+  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx" revision="9be31b43df41ec245f969c2fc65f56c6e910d752" upstream="rel-v2021.2"/>
   <project name="poky" path="sources/core" remote="xilinx" revision="1a07bce883aa05bb2fcf412384c671ace7a6e23f" upstream="rel-v2021.2"/>
   <project name="yocto-manifests" path="sources/manifest" remote="xilinx" revision="rel-v2021.2"/>
   <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="484bd017441f0d895f7d24a82192acdf497408a8" upstream="rel-v2021.2">
