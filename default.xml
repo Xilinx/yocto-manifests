@@ -23,4 +23,6 @@
   <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="rel-v2022.1">
     <copyfile dest="setupsdk" src="setupsdk"/>
   </project>
+  <project name="meta-ros" path="sources/meta-ros" remote="xilinx" revision="rel-v2022.1"/>
+  <project name="meta-xilinx-tsn" path="sources/meta-xilinx-tsn" remote="xilinx" revision="rel-v2022.1"/>
 </manifest>
