@@ -4,26 +4,26 @@
   
   <default sync-j="4"/>
   
-  <project dest-branch="rel-v2022.2" name="meta-browser" path="sources/meta-browser" remote="xilinx" revision="d25d8ee98a656b2534d0eec6138ef264529fab4f" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-clang" path="sources/meta-clang" remote="xilinx" revision="088904d40231d9e099c2f5039cd3c2bc47d332d1" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-jupyter" path="sources/meta-jupyter" remote="xilinx" revision="002d9889aab5d28f05f152d228445dbee753a994" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-mingw" path="sources/meta-mingw" remote="xilinx" revision="f5d761cbd5c957e4405c5d40b0c236d263c916a8" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-openamp" path="sources/meta-openamp" remote="xilinx" revision="38b3733175e69e19647035f0e06bf3237da6cefa" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-openembedded" path="sources/meta-openembedded" remote="xilinx" revision="5d871d57b49f2779ad4ceb276d43ebe747097e12" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="5799be3036a7c28ddc347fd903b8ab794ca3a303" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-python2" path="sources/meta-python2" remote="xilinx" revision="7a1ae67682a8ddb21e1ed8f344567456a472f4a0" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-qt5" path="sources/meta-qt5" remote="xilinx" revision="19c3d955113878578526112bb00643b721f77f82" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-ros" path="sources/meta-ros" remote="xilinx" revision="b170fbcd5d8563b59321588ec4bcd4a754f89f3e" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-security" path="sources/meta-security" remote="xilinx" revision="5c604857445b19dcd7d8ce9416566419b53532c9" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-som" path="sources/meta-som" remote="xilinx" revision="b489529697e3162a64823914b62822e2f9b4b1fb" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-virtualization" path="sources/meta-virtualization" remote="xilinx" revision="7c5f012e2442225b79fbeeec93d997ee84b55c02" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-vitis" path="sources/meta-vitis" remote="xilinx" revision="33b08f542092baacbcd0f7f72b94ad83e0a66b6d" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="d131749480baa36b93e79f11c1c1343e8f61873f" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx" revision="a7589e1dab80570d3cbe6cc2bc2b9c8aa9c1b725" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="meta-xilinx-tsn" path="sources/meta-xilinx-tsn" remote="xilinx" revision="3202e79c458f1e804831084d0b9dd2059aeef409" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="poky" path="sources/core" remote="xilinx" revision="e309c80a51d38aa74d146fef0c02780f876388b2" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="yocto-manifests" path="sources/manifest" remote="xilinx" revision="a72f59b1fd070f02dd32c7ef1d8171738c0dfd49" upstream="rel-v2022.2"/>
-  <project dest-branch="rel-v2022.2" name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="46f352333195ee9164d97616c1894c0656b0f2c6" upstream="rel-v2022.2">
+  <project name="meta-browser" path="sources/meta-browser" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-clang" path="sources/meta-clang" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-jupyter" path="sources/meta-jupyter" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-mingw" path="sources/meta-mingw" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-openamp" path="sources/meta-openamp" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-python2" path="sources/meta-python2" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-security" path="sources/meta-security" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-som" path="sources/meta-som" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="poky" path="sources/core" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="yocto-manifests" path="sources/manifest" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="rel-v2022.2">
     <copyfile dest="setupsdk" src="setupsdk"/>
   </project>
+  <project name="meta-ros" path="sources/meta-ros" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-xilinx-tsn" path="sources/meta-xilinx-tsn" remote="xilinx" revision="rel-v2022.2"/>
+  <project name="meta-vitis" path="sources/meta-vitis" remote="xilinx" revision="rel-v2022.2"/>
 </manifest>
