@@ -44,7 +44,7 @@ Create an empty directory to hold your working files:
 
 Tell Repo where to find the manifest:
 
-    $ repo init -u https://github.com/Xilinx/yocto-manifests.git -b rel-v2022.2
+    $ repo init -u https://github.com/Xilinx/yocto-manifests.git -b rel-v2023.1
 
 A successful initialization will end with a message stating that Repo is
 initialized in your working directory. Your directory should now contain a
