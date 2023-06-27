@@ -20,7 +20,7 @@
   <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx" revision="2577cda279ce63a3b6791523022e9ea73ce628fd" upstream="rel-v2023.2_ksb"/>
   <project name="meta-xilinx-tsn" path="sources/meta-xilinx-tsn" remote="xilinx" revision="87b60ad671f6800b034935a7f4f5a125fbd59d28" upstream="rel-v2023.1"/>
   <project name="poky" path="sources/poky" remote="xilinx" revision="12029f5899b23b3839b961eb68cc7a867e6b8d15" upstream="rel-v2023.1"/>
-  <project name="yocto-manifests" path="sources/manifest" remote="xilinx" revision="ef412004388b27083dbd356883b9e2a6b4547a89" upstream="rel-v2023.1"/>
+  <project name="yocto-manifests" path="sources/manifest" remote="xilinx" revision="6b6f6e15d4f8d393d51490ef6d6044139ce822e4" upstream="rel-v2023.2_ksb"/>
   <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="0baffcc5d99da5338fb399d7b687ee9faf9631cb" upstream="rel-v2023.1">
     <copyfile dest="setupsdk" src="setupsdk"/>
   </project>
