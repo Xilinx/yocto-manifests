@@ -28,4 +28,5 @@
   <project remote="xilinx"    revision="rel-v2023.1"      name="meta-ros"                 path="sources/meta-ros"/>
   <project remote="xilinx"    revision="rel-v2023.1"      name="meta-jupyter"             path="sources/meta-jupyter"/>
   <project remote="xilinx"    revision="rel-v2023.1"      name="meta-system-controller"   path="sources/meta-system-controller"/>
+  <project remote="xilinx"    revision="rel-v2023.1"      name="meta-vitis"               path="sources/meta-vitis"/>
 </manifest>
