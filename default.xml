@@ -9,17 +9,17 @@
 
   <default sync-j="4"/>
 
-  <project remote="xilinx" revision="master" name="yocto-scripts" path="sources/yocto-scripts">
+  <project remote="xilinx" revision="master-next" name="yocto-scripts" path="sources/yocto-scripts">
     <copyfile dest="setupsdk" src="setupsdk"/>
   </project>
-  <project remote="xilinx" revision="master" name="yocto-manifests" path="sources/manifest"/>
-  <project remote="xilinx" revision="master" name="meta-xilinx" path="sources/meta-xilinx" sync-s="true"/>
-  <project remote="xilinx" revision="master" name="meta-xilinx-tools" path="sources/meta-xilinx-tools"/>
-  <project remote="xilinx" revision="master" name="meta-petalinux" path="sources/meta-petalinux"/>
-  <project remote="xilinx" revision="master" name="meta-xilinx-tsn" path="sources/meta-xilinx-tsn"/>
-  <project remote="xilinx" revision="master" name="meta-kria" path="sources/meta-kria"/>
-  <project remote="xilinx" revision="master" name="meta-jupyter" path="sources/meta-jupyter"/>
-  <project remote="xilinx" revision="master" name="meta-system-controller" path="sources/meta-system-controller"/>
+  <project remote="xilinx" revision="master-next" name="yocto-manifests" path="sources/manifest"/>
+  <project remote="xilinx" revision="master-next" name="meta-xilinx" path="sources/meta-xilinx" sync-s="true"/>
+  <project remote="xilinx" revision="master-next" name="meta-xilinx-tools" path="sources/meta-xilinx-tools"/>
+  <project remote="xilinx" revision="master-next" name="meta-petalinux" path="sources/meta-petalinux"/>
+  <project remote="xilinx" revision="master-next" name="meta-xilinx-tsn" path="sources/meta-xilinx-tsn"/>
+  <project remote="xilinx" revision="master-next" name="meta-kria" path="sources/meta-kria"/>
+  <project remote="xilinx" revision="master-next" name="meta-jupyter" path="sources/meta-jupyter"/>
+  <project remote="xilinx" revision="master-next" name="meta-system-controller" path="sources/meta-system-controller"/>
 
   <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="master" name="meta-mingw" path="sources/meta-mingw"/>
