@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="xilinx"  fetch="https://github.com/xilinx"/>
+  <remote name="xilinx" fetch="https://github.com/Xilinx"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org"/>
+  <remote name="openamp" fetch="https://github.com/OpenAmp"/>
+  <remote name="oe" fetch="https://github.com/openembedded"/>
+  <remote name="meta-qt5" fetch="https://github.com/meta-qt5"/>
+  <remote name="aws4embeddedlinux" fetch="https://github.com/aws4embeddedlinux"/>
 
   <default sync-j="4"/>
 
-  <project remote="xilinx"  revision="master"      name="yocto-scripts"            path="."/>
-  <project remote="xilinx"  revision="master"      name="yocto-manifests"          path="sources/manifest"/>
-  <project remote="xilinx"  revision="master"      name="meta-xilinx"              path="sources/meta-xilinx"/>
-  <project remote="xilinx"  revision="master"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
-  <project remote="xilinx"  revision="master"      name="meta-petalinux"           path="sources/meta-petalinux"/>
+  <project remote="xilinx" revision="master" name="yocto-scripts" path="sources/yocto-scripts">
+    <copyfile dest="setupsdk" src="setupsdk"/>
+  </project>
+  <project remote="xilinx" revision="master" name="yocto-manifests" path="sources/manifest"/>
+  <project remote="xilinx" revision="master" name="meta-xilinx" path="sources/meta-xilinx" sync-s="true"/>
+  <project remote="xilinx" revision="master" name="meta-xilinx-tools" path="sources/meta-xilinx-tools"/>
+  <project remote="xilinx" revision="master" name="meta-petalinux" path="sources/meta-petalinux"/>
+  <project remote="xilinx" revision="master" name="meta-xilinx-tsn" path="sources/meta-xilinx-tsn"/>
+  <project remote="xilinx" revision="master" name="meta-kria" path="sources/meta-kria"/>
+  <project remote="xilinx" revision="master" name="meta-jupyter" path="sources/meta-jupyter"/>
+  <project remote="xilinx" revision="master" name="meta-system-controller" path="sources/meta-system-controller"/>
 
-  <project remote="xilinx"  revision="master"      name="poky"                     path="sources/core"/>
-  <project remote="xilinx"  revision="master"      name="meta-mingw"               path="sources/meta-mingw"/>
-  <project remote="xilinx"  revision="master"      name="meta-openamp"             path="sources/meta-openamp"/>
-  <project remote="xilinx"  revision="master"      name="meta-clang"               path="sources/meta-clang"/>
-  <project remote="xilinx"  revision="master"      name="meta-browser"             path="sources/meta-browser"/>
-  <project remote="xilinx"  revision="master"      name="meta-openembedded"        path="sources/meta-openembedded"/>
-  <project remote="xilinx"  revision="master"      name="meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="xilinx"  revision="master"      name="meta-linaro"              path="sources/meta-linaro"/>
-  <project remote="xilinx"  revision="master"      name="meta-virtualization"      path="sources/meta-virtualization"/>
-  <project remote="xilinx"  revision="master"      name="meta-jupyter"             path="sources/meta-jupyter"/>
-  <project remote="xilinx"  revision="master"      name="meta-vitis-ai"            path="sources/meta-vitis-ai"/>
+  <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="master" name="meta-mingw" path="sources/meta-mingw"/>
+  <project remote="yocto" revision="master" name="meta-virtualization" path="sources/meta-virtualization"/>
+  <project remote="yocto" revision="master" name="meta-security" path="sources/meta-security"/>
 
+  <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+  <project remote="openamp" revision="master" name="meta-openamp" path="sources/meta-openamp"/>
+
+  <project remote="meta-qt5" revision="master" name="meta-qt5" path="sources/meta-qt5"/>
+
+  <project remote="aws4embeddedlinux" revision="master" name="meta-aws" path="sources/meta-aws"/>
 </manifest>
