@@ -6,6 +6,7 @@
   <remote name="oe" fetch="https://github.com/openembedded"/>
   <remote name="meta-qt5" fetch="https://github.com/meta-qt5"/>
   <remote name="aws4embeddedlinux" fetch="https://github.com/aws4embeddedlinux"/>
+  <remote name="ros" fetch="https://github.com/ros"/>
 
   <default sync-j="4"/>
 
@@ -33,4 +34,5 @@
   <project remote="meta-qt5" revision="master" name="meta-qt5" path="sources/meta-qt5"/>
 
   <project remote="aws4embeddedlinux" revision="master" name="meta-aws" path="sources/meta-aws"/>
+  <project remote="ros" revision="master" name="meta-ros" path="sources/meta-ros"/>
 </manifest>
