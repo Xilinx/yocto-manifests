@@ -10,7 +10,7 @@
   <project name="meta-mingw" path="sources/meta-mingw" remote="xilinx" revision="b0067202db8573df3d23d199f82987cebe1bee2c" upstream="rel-v2023.1"/>
   <project name="meta-openamp" path="sources/meta-openamp" remote="xilinx" revision="dc4fa75634c80ad3cd00bf634b0f3c67b4f8210f" upstream="rel-v2023.1"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="xilinx" revision="c354f92778c1d4bcd3680af7e0fb0d1414de2344" upstream="rel-v2023.1"/>
-  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="b63a17e6fbea148adf59ea88d273bacac8ba98f0" upstream="rel-v2023.1"/>
+  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="f0ed719ec5f7cf15628bab4e983054916fbb4ec5" upstream="rel-v2023.2_ksb"/>
   <project name="meta-qt5" path="sources/meta-qt5" remote="xilinx" revision="1a917695e439d602ec85e1db4e0478533cfbfaa8" upstream="rel-v2023.1"/>
   <project name="meta-ros" path="sources/meta-ros" remote="xilinx" revision="fb6cc73c4013a41cbbeb763213efe62e0d2c08f3" upstream="rel-v2023.1"/>
   <project name="meta-security" path="sources/meta-security" remote="xilinx" revision="2aa48e6f4e519abc7d6bd56da2c067309a303e80" upstream="rel-v2023.1"/>
