@@ -14,6 +14,7 @@
   <project remote="xilinx"    revision="rel-v2024.2"      name="meta-petalinux"           path="sources/meta-petalinux"/>
   <project remote="xilinx"    revision="rel-v2024.2"      name="meta-xilinx-tsn"          path="sources/meta-xilinx-tsn"/>
   <project remote="xilinx"    revision="rel-v2024.2"      name="meta-kria"                path="sources/meta-kria"/>
+  <project remote="xilinx"    revision="rel-v2024.2"      name="meta-embedded-plus"       path="sources/meta-embedded-plus"/>
 
   <project remote="xilinx"    revision="rel-v2024.2"      name="poky"                     path="sources/poky"/>
   <project remote="xilinx"    revision="rel-v2024.2"      name="meta-mingw"               path="sources/meta-mingw"/>
