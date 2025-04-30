@@ -18,26 +18,9 @@ setup a Yocto Project build environment for you!
 There are multiple manifest files, the purpose of each one is listed
 below:
 
-* **default.xml** - Symbolic link to the currently used manifest for
-development.
+* **default.xml** - PetaLinux manifest
 
-* **default-external.xml** - External releasable components, no restricted
-                items.  Used for release builds.
-
-* **default-external-restricted.xml** - External and restricted items.  Used
-                to verify release & restricted component functions.
-
-* **default-internal.xml** - External and internal items.  Not to be released
-                to users outside of AMD.  Used for development and
-                internal builds.
-
-* **default-internal-restricted.xml** - External, internal and restricted
-                items.  Not to be released to users outsie of AMD.  Used
-                for full system development and internal validation.
-
-* **default-ci-internal** - Used for Yocto Project workflow CI build/test.
-
-* **default-basecamp-internal** - Used for Basecamp Project workflow CI build/test.
+* **default-edf.xml** - Embedded Development Framework Project manifest
 
 ## Getting Started
 ---
@@ -81,7 +64,7 @@ $ cd yocto/<release_version>
 
 * Clone the Yocto meta layer source using yocto manifest as show below.
 ```
-$ repo init -u https://gitenterprise.xilinx.com/Yocto/yocto-manifests.git -b <release_version>
+$ repo init -u https://gitenterprise.xilinx.com/Yocto/yocto-manifests.git -b <release_version> -m <manifest>
 ```
 A successful initialization will end with a message stating that Repo is
 initialized in your working directory. Your directory should now contain a
@@ -113,8 +96,9 @@ MACHINE = "<target_machine_name>"
 ```
 * For list of available target machines see meta layer README files.
 
- * [meta-xilinx-bsp README](https://github.com/Xilinx/meta-xilinx/tree/master/meta-xilinx-bsp#amd-xilinx-evaluation-boards-bsp-machines-files)
- * [meta-kria README](https://github.com/Xilinx/meta-xilinx/tree/master/meta-xilinx-bsp#amd-xilinx-evaluation-boards-bsp-machines-files)
+ * [meta-xilinx-tools README](https://github.com/Xilinx/meta-xilinx-tools/blob/rel-v2025.1/README.xsct.bsp.md)
+ * [meta-amd-adaptive-socs-bsp README](https://github.com/Xilinx/meta-amd-adaptive-socs/blob/rel-v2025.1/meta-amd-adaptive-socs-bsp/README.asoc.bsp.md)
+ * [meta-kria README](https://github.com/Xilinx/meta-kria/blob/rel-v2025.1/README.kria.bsp.md)
 
 8. For NFS build host system modify the build/conf/local.conf and add TMPDIR
    path as shown below. On local storage $TMPDIR will be set to build/tmp
