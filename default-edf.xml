@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="xilinx"  fetch="https://gitenterprise.xilinx.com/Yocto"/>
+  <remote name="xilinx"  fetch="https://github.com/Xilinx"/>
   <default sync-j="4"/>
 
   <project remote="xilinx"    revision="rel-v2025.1"      name="poky"                     path="sources/poky"/>
