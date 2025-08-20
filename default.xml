@@ -31,4 +31,5 @@
   <project remote="xilinx"    revision="rel-v2025.1"      name="meta-jupyter"             path="sources/meta-jupyter"/>
   <project remote="xilinx"    revision="rel-v2025.1"      name="meta-vitis"               path="sources/meta-vitis"/>
   <project remote="xilinx"    revision="rel-v2025.1"      name="meta-amd-adaptive-socs"   path="sources/meta-amd-adaptive-socs"/>
+  <project remote="xilinx"    revision="rel-v2025.1"      name="meta-embedded-plus"       path="sources/meta-embedded-plus"/>
 </manifest>
