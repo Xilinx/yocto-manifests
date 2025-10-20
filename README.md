@@ -60,7 +60,7 @@ below:
       but you should not need to touch this directory.
       To learn more about repo, look at https://source.android.com/setup/develop/repo
       > **Note:**
-      > If you are using default-edf.xml then follow https://github.com/Xilinx/meta-amd-edf/blob/rel-v2025.1/README.build.md
+      > If you are using default-edf.xml then follow https://github.com/Xilinx/meta-amd-edf/blob/rel-v2025.2/README.build.md
       ```
       $ repo init -u https://github.com/Xilinx/yocto-manifests.git -b <release_version>
       ```
