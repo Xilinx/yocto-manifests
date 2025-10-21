@@ -22,4 +22,5 @@
   <project remote="xilinx"    revision="rel-v2025.2"      name="meta-vitis"               path="sources/meta-vitis"/>
   <project remote="xilinx"    revision="rel-v2025.2"      name="meta-xilinx-tsn"          path="sources/meta-xilinx-tsn"/>
   <project remote="xilinx"    revision="rel-v2025.2"      name="meta-zephyr"              path="sources/meta-zephyr"/>
+  <project remote="xilinx"    revision="rel-v2025.2"      name="meta-system-controller"   path="sources/meta-system-controller"/>
 </manifest>
