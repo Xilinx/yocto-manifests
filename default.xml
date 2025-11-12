@@ -32,4 +32,5 @@
   <project remote="xilinx"    revision="rel-v2025.2"      name="meta-vitis"               path="sources/meta-vitis"/>
   <project remote="xilinx"    revision="rel-v2025.2"      name="meta-amd-adaptive-socs"   path="sources/meta-amd-adaptive-socs"/>
   <project remote="xilinx"    revision="rel-v2025.2"      name="meta-system-controller"   path="sources/meta-system-controller"/>
+  <project remote="xilinx"    revision="rel-v2025.2"      name="meta-embedded-plus"       path="sources/meta-embedded-plus"/>
 </manifest>
