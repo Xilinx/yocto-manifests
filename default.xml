@@ -25,10 +25,8 @@
   <project remote="xilinx"    revision="rel-v2026.1"      name="meta-openamp"             path="sources/meta-openamp"/>
 
   <project remote="xilinx"    revision="rel-v2026.1"      name="meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-aws"                 path="sources/meta-aws"/>
   <project remote="xilinx"    revision="rel-v2026.1"      name="meta-ros"                 path="sources/meta-ros"/>
   <project remote="xilinx"    revision="rel-v2026.1"      name="meta-jupyter"             path="sources/meta-jupyter"/>
   <project remote="xilinx"    revision="rel-v2026.1"      name="meta-vitis"               path="sources/meta-vitis"/>
   <project remote="xilinx"    revision="rel-v2026.1"      name="meta-amd-adaptive-socs"   path="sources/meta-amd-adaptive-socs"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-embedded-plus"       path="sources/meta-embedded-plus"/>
 </manifest>
