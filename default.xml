@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="xilinx"  fetch="https://github.com/Xilinx"/>
-
+  <remote name="xilinx" fetch="https://github.com/Xilinx"/>
+  
   <default sync-j="4"/>
-
-  <project remote="xilinx"  revision="rel-v2026.1"      name="yocto-scripts"            path="sources/yocto-scripts">
-       <copyfile dest="setupsdk" src="setupsdk"/>
+  
+  <project name="meta-amd-adaptive-socs" path="sources/meta-amd-adaptive-socs" remote="xilinx" revision="4d857c3a8e8ca3d21a8386360e7dcf38a4ab369a" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-arm" path="sources/meta-arm" remote="xilinx" revision="a81c19915b5b9e71ed394032e9a50fd06919e1cd" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-jupyter" path="sources/meta-jupyter" remote="xilinx" revision="5e47ac5efa4c9f7a36912253acbca0cdb2a812e6" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-kria" path="sources/meta-kria" remote="xilinx" revision="85effb511a3f0e3d6938e4129cef8545c9d95705" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-mingw" path="sources/meta-mingw" remote="xilinx" revision="bd9fef71ec005be3c3a6d7f8b99d8116daf70c4f" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-openamp" path="sources/meta-openamp" remote="xilinx" revision="b2e2e8083235b6c9a673b0a4d0219ddca0701b12" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="xilinx" revision="4d3e2639dec542b58708244662d5ce36810fc510" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-petalinux" path="sources/meta-petalinux" remote="xilinx" revision="3bcef3b6a9d01c0469c1acc26a7b2691e746765a" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="xilinx" revision="227cf5e7b64c93dfc1a45f235c466db8c3fd8707" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-ros" path="sources/meta-ros" remote="xilinx" revision="d149a6264d084665b43790c020109bcfbcd54740" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-security" path="sources/meta-security" remote="xilinx" revision="b13f1705d723650de61277670c8a76aadea4cfdd" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="xilinx" revision="6415d786379505f3af2849bc56baa5246250f729" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-vitis" path="sources/meta-vitis" remote="xilinx" revision="4e8d979f9eb1dd10a98d7668f092be079d257e78" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx" revision="469da91f6031bcf5b5ac0e54ed2eb2361baa01e3" upstream="rel-v2026.1" dest-branch="rel-v2026.1" sync-s="true"/>
+  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx" revision="94fea5f042e34522e9caf70c134817a046ca7e08" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="meta-xilinx-tsn" path="sources/meta-xilinx-tsn" remote="xilinx" revision="2049bfdc0d2bf7788afe0df8797b9eda7052619d" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="poky" path="sources/poky" remote="xilinx" revision="1d54d1c4736a114e1cecbe85a0306e3814d5ce70" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="yocto-manifests" path="sources/manifest" remote="xilinx" revision="0499352c07803d6d6c082cd4496b948572ff6cd9" upstream="rel-v2026.1" dest-branch="rel-v2026.1"/>
+  <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="27644974099014f27a84549a4610a6b908271155" upstream="rel-v2026.1" dest-branch="rel-v2026.1">
+    <copyfile src="setupsdk" dest="setupsdk"/>
   </project>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="yocto-manifests"          path="sources/manifest"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-xilinx"              path="sources/meta-xilinx"	sync-s="true"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-arm"                 path="sources/meta-arm"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-petalinux"           path="sources/meta-petalinux"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-xilinx-tsn"          path="sources/meta-xilinx-tsn"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-kria"                path="sources/meta-kria"/>
-
-  <project remote="xilinx"    revision="rel-v2026.1"      name="poky"                     path="sources/poky"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-mingw"               path="sources/meta-mingw"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-virtualization"      path="sources/meta-virtualization"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-security"            path="sources/meta-security"/>
-
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-openembedded"        path="sources/meta-openembedded"/>
-
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-openamp"             path="sources/meta-openamp"/>
-
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-ros"                 path="sources/meta-ros"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-jupyter"             path="sources/meta-jupyter"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-vitis"               path="sources/meta-vitis"/>
-  <project remote="xilinx"    revision="rel-v2026.1"      name="meta-amd-adaptive-socs"   path="sources/meta-amd-adaptive-socs"/>
 </manifest>
