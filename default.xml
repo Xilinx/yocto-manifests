@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="amd-aecg"  fetch="https://github.com/Xilinx"/>
-
+  <remote name="amd-aecg" fetch="https://github.com/Xilinx"/>
+  
   <default sync-j="4"/>
-
-  <project remote="amd-aecg"  revision="rel-v2026.2-scarthgap"      name="yocto-scripts"            path="sources/yocto-scripts">
-       <copyfile dest="setupsdk" src="setupsdk"/>
+  
+  <project name="meta-amd-adaptive-socs" path="sources/meta-amd-adaptive-socs" remote="amd-aecg" revision="4d857c3a8e8ca3d21a8386360e7dcf38a4ab369a" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-arm" path="sources/meta-arm" remote="amd-aecg" revision="a81c19915b5b9e71ed394032e9a50fd06919e1cd" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-jupyter" path="sources/meta-jupyter" remote="amd-aecg" revision="5e47ac5efa4c9f7a36912253acbca0cdb2a812e6" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-kria" path="sources/meta-kria" remote="amd-aecg" revision="85effb511a3f0e3d6938e4129cef8545c9d95705" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-mingw" path="sources/meta-mingw" remote="amd-aecg" revision="bd9fef71ec005be3c3a6d7f8b99d8116daf70c4f" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-openamp" path="sources/meta-openamp" remote="amd-aecg" revision="b2e2e8083235b6c9a673b0a4d0219ddca0701b12" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="amd-aecg" revision="4d3e2639dec542b58708244662d5ce36810fc510" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-petalinux" path="sources/meta-petalinux" remote="amd-aecg" revision="0ec8c96deda8cbf3f394130eaa22daf5b21249eb" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="amd-aecg" revision="227cf5e7b64c93dfc1a45f235c466db8c3fd8707" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-ros" path="sources/meta-ros" remote="amd-aecg" revision="d149a6264d084665b43790c020109bcfbcd54740" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-security" path="sources/meta-security" remote="amd-aecg" revision="b13f1705d723650de61277670c8a76aadea4cfdd" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="amd-aecg" revision="6415d786379505f3af2849bc56baa5246250f729" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-vitis" path="sources/meta-vitis" remote="amd-aecg" revision="4e8d979f9eb1dd10a98d7668f092be079d257e78" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-xilinx" path="sources/meta-xilinx" remote="amd-aecg" revision="168fb3bc72d76b73e9145c064276bedea0787ed5" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap" sync-s="true"/>
+  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="amd-aecg" revision="62cf1a7d344520a26e251af5b52a1085a904b941" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="meta-xilinx-tsn" path="sources/meta-xilinx-tsn" remote="amd-aecg" revision="2049bfdc0d2bf7788afe0df8797b9eda7052619d" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="poky" path="sources/poky" remote="amd-aecg" revision="1d54d1c4736a114e1cecbe85a0306e3814d5ce70" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="yocto-manifests" path="sources/manifest" remote="amd-aecg" revision="3f18865306cc321bc7c7d2fcc936ec30a21e1c0e" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap"/>
+  <project name="yocto-scripts" path="sources/yocto-scripts" remote="amd-aecg" revision="27644974099014f27a84549a4610a6b908271155" upstream="rel-v2026.2-scarthgap" dest-branch="rel-v2026.2-scarthgap">
+    <copyfile src="setupsdk" dest="setupsdk"/>
   </project>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="yocto-manifests"          path="sources/manifest"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-xilinx"              path="sources/meta-xilinx"	sync-s="true"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-arm"                 path="sources/meta-arm"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-petalinux"           path="sources/meta-petalinux"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-xilinx-tsn"          path="sources/meta-xilinx-tsn"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-kria"                path="sources/meta-kria"/>
-
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="poky"                     path="sources/poky"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-mingw"               path="sources/meta-mingw"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-virtualization"      path="sources/meta-virtualization"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-security"            path="sources/meta-security"/>
-
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-openembedded"        path="sources/meta-openembedded"/>
-
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-openamp"             path="sources/meta-openamp"/>
-
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-ros"                 path="sources/meta-ros"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-jupyter"             path="sources/meta-jupyter"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-vitis"               path="sources/meta-vitis"/>
-  <project remote="amd-aecg"    revision="rel-v2026.2-scarthgap"      name="meta-amd-adaptive-socs"   path="sources/meta-amd-adaptive-socs"/>
 </manifest>
