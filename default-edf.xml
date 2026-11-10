@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="amd-aecg" fetch="https://github.com/Xilinx"/>
-  
+	<remote name="amd-aecg" fetch="https://github.com/Xilinx"/>
+
   <default sync-j="4"/>
-  
-  <project name="bitbake" path="sources/openembedded-core/bitbake" remote="amd-aecg" revision="dc2bb660a85e2e76ae4ce6e02baae73b28f0593d" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="gen-machine-conf" path="sources/meta-xilinx/meta-xilinx-core/gen-machine-conf" remote="amd-aecg" revision="5758d6da142a60efd11ac4fa5768f9f9582636b3" upstream="xlnx_rel_v2026.2" dest-branch="xlnx_rel_v2026.2"/>
-  <project name="meta-amd-adaptive-socs" path="sources/meta-amd-adaptive-socs" remote="amd-aecg" revision="00217ad570573c6e0f3996c643933fb3b6720b99" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-amd-edf" path="sources/meta-amd-edf" remote="amd-aecg" revision="63046773f8d4daf1291fddc934ea08d4b4797f9d" upstream="rel-v2026.2" dest-branch="rel-v2026.2">
+
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="yocto-manifests"          path="sources/manifest"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-xilinx"              path="sources/meta-xilinx"/>
+  <project remote="amd-aecg"    revision="xlnx_rel_v2026.2" name="gen-machine-conf" 	    path="sources/meta-xilinx/meta-xilinx-core/gen-machine-conf"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-xilinx-tsn"          path="sources/meta-xilinx-tsn"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-kria"                path="sources/meta-kria"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-amd-hybrid"          path="sources/meta-amd-hybrid"/>
+
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-jupyter"             path="sources/meta-jupyter"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-vitis"               path="sources/meta-vitis"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-amd-adaptive-socs"   path="sources/meta-amd-adaptive-socs"/>
+
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-amd-edf"             path="sources/meta-amd-edf">
     <copyfile src="meta-amd-edf-core/scripts/edf-init-build-env" dest="edf-init-build-env"/>
   </project>
-  <project name="meta-amd-hybrid" path="sources/meta-amd-hybrid" remote="amd-aecg" revision="f9254da7e549c1ff4ec1a9fcef097c3bd9b1de78" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-arm" path="sources/meta-arm" remote="amd-aecg" revision="9dab8bdd4991973faa6dfc5b3c607f4c09cc1cdb" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-dpdk" path="sources/meta-dpdk" remote="amd-aecg" revision="f0e6d4851438470e5f00100575421b2faeb7d194" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-jupyter" path="sources/meta-jupyter" remote="amd-aecg" revision="c9061cd17f7b7ee52229663e2964edb85a4c9257" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-kria" path="sources/meta-kria" remote="amd-aecg" revision="39e1595f3e696e1592333a092d9ca1c9ee156ecb" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-mingw" path="sources/meta-mingw" remote="amd-aecg" revision="5876c193da3ad86b5e23012374b5350e49b0c755" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-openamp" path="sources/meta-openamp" remote="amd-aecg" revision="4dda04a45cdf609a4ecbb862a8835d4f79fa2606" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="amd-aecg" revision="14282a02be9c74a1276a7cda7d6c89e054699a11" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-qt6" path="sources/meta-qt6" remote="amd-aecg" revision="df445fceecc64d28bc3df18be0c3466d2168822f" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-ros" path="sources/meta-ros" remote="amd-aecg" revision="95c08773cff114b3fe1a8c8f43643e59151bc8db" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-security" path="sources/meta-security" remote="amd-aecg" revision="c0d1d6200e7a84c39fb940cb1f22aad4b0b3d808" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="amd-aecg" revision="70a5d5a65d7237cfe978961fa4d8765c895cddc8" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-vitis" path="sources/meta-vitis" remote="amd-aecg" revision="021becc68bc0cad43fc56d0bb29fea52de297330" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-xilinx" path="sources/meta-xilinx" remote="amd-aecg" revision="e348ec20b20d862a09dbdc4a14b6fc05f119973e" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-xilinx-tsn" path="sources/meta-xilinx-tsn" remote="amd-aecg" revision="17cfb9156f7b1e95a86b8f40576c6892a473e048" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-yocto" path="sources/meta-yocto" remote="amd-aecg" revision="ddeeba423ff0565b8f1192f16072b5993d5ea6a0" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="meta-zephyr" path="sources/meta-zephyr" remote="amd-aecg" revision="fc555c3a379df11674c2cd434f589d03589ff7b3" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="openembedded-core" path="sources/openembedded-core" remote="amd-aecg" revision="883075157987ca300af59185b903d6d1977234c3" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
-  <project name="yocto-manifests" path="sources/manifest" remote="amd-aecg" revision="e7608e748ea1934b0c6acf872e4a80a67b5cc582" upstream="rel-v2026.2" dest-branch="rel-v2026.2"/>
+
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-openamp"             path="sources/meta-openamp"/>
+
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-dpdk"                path="sources/meta-dpdk"/>
+
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-qt6"                 path="sources/meta-qt6"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-ros"                 path="sources/meta-ros"/>
+
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="openembedded-core"        path="sources/openembedded-core"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="bitbake"                  path="sources/openembedded-core/bitbake"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-yocto"               path="sources/meta-yocto"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-mingw"               path="sources/meta-mingw"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-virtualization"      path="sources/meta-virtualization"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-security"            path="sources/meta-security"/>
+
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-openembedded"        path="sources/meta-openembedded"/>
+
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-arm"                 path="sources/meta-arm"/>
+
+  <project remote="amd-aecg"    revision="rel-v2026.2"      name="meta-zephyr"              path="sources/meta-zephyr"/>
 </manifest>
