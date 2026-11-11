@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="amd-aecg"  fetch="https://github.com/Xilinx"/>
+
+  <default sync-j="4"/>
+  <project remote="amd-aecg"    revision="amd-wrynose"    name="yocto-manifests"           path="sources/manifest"/>
+  <project remote="amd-aecg"    revision="amd-wrynose"    name="openbmc"                   path="sources/openbmc"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"    name="meta-xilinx"               path="sources/meta-xilinx" sync-s="true">
+    <linkfile src="." dest="sources/openbmc/meta-amd-adaptive-socs-openbmc/meta-xilinx"/>
+  </project>
+  <project remote="amd-aecg"    revision="xlnx_rel_v2026.2" name="gen-machine-conf"        path="sources/meta-xilinx/meta-xilinx-core/gen-machine-conf"/>
+  <project remote="amd-aecg"    revision="rel-v2026.2"    name="meta-amd-adaptive-socs"    path="sources/meta-amd-adaptive-socs" sync-s="true">
+    <linkfile src="meta-amd-adaptive-socs-bsp" dest="sources/openbmc/meta-amd-adaptive-socs-openbmc/meta-amd-adaptive-socs-bsp"/>
+  </project>
+</manifest>
